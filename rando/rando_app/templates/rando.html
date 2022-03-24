@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomCounter</title>
+</head>
+<body>
+    <p> Random Word </p>
+    <p>{{unique_id}}</p>
+    <p>counter {{request.session.num_clicks }}</p>
+    <button><a href="http://localhost:8000/random_word">Generate</a></button>
+    <button><a href="http://localhost:8000/random">Reset</a></button>
+</body>
+</html>
